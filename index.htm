@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>To Do List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <aside>
+        <p id="create_btn">Create</p>
+        <ul>
+            <li id="today_aside">
+                Today
+            </li>
+            <li id="tomorrow_aside">
+                Tomorrow
+            </li>
+            <li id="someday_aside">
+                Someday
+            </li>
+        </ul>
+    </aside>
+    <main>
+        <div id="task_list_container">
+            <ul id="task_list">
+
+            </ul>
+        </div>
+        <div id="task_info">
+            <h3 id="name_info"></h3>
+            <p>due date</p>
+            <p id="due_date_info"></p>
+            <p>Breif:</p>
+            <p id="breif_info"></p>
+        </div>
+    </main>
+
+    <form id="create">
+        <label>Task Name:</label><br>
+        <input type="text" id="task_name" autocomplete="off"><br>
+        <label>Due Date:</label><br>
+        <span class="date" id="today">Today</span>
+        <span class="date" id="tomorrow">Tomorrow</span>
+        <span class="date" id="someday">Some Day</span><br>
+        <label>Breif:</label><br>
+        <textarea name=" " id="breif" cols="30 " rows="10 "></textarea><br>
+        <span id="submit_task_btn">DONE</span>
+    </form>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
